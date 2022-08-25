@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: gray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dev {
+    color:rgb(182, 168, 168);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.fab {
+    color: #124265;
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    padding: 3px;
+    font-size: 19px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {    
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+.logo {
+    color: #124265;
+    font-size: 20px;
+    
+}
+
+.menu {
+    color:#124265;
+    font-size: 14px;
+    
+    align-items: center;
+}
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+   /* transition: 0.4s;*/
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+.menu .btn-menu {
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover {
+    background-color: #124265;
+    color: white;
+}
+
+/*
+Section Main
+*/
+
+section.main {
+    background-image: url("../Portfolium/tecnologie-bg-white.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-cta {
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+    padding: 40px;
+}
+
+.main-cta h2{
+    color: #16507b;
+    font: 40px;
+}
+
+.main-cta p{
+    color: gray;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main-cta button{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.diferenciais-single {
+    border-radius: 10px;
+    background-color: white;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px
+}
+
+.diferenciais-single i {
+    color:#124265;
+    font-size: 23px;
+}
+
+.diferenciais-single h2{
+    color: #124265;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferenciais-single p{
+    color: gray;
+    font-size: 14px;
+    list-style: 30px;
+
+}
+
+.about {
+    padding: 80px;
+}
+
+.call-about {
+    width: 100%;
+    text-align: center;
+}
+
+.call-about h2 {
+    color:#124265;
+}
+
+.call-about p {
+    color: gray;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.content-about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-about p{
+    width: 48%;
+    margin-right: 2%;
+    margin: 0 10px;
+}
+
+.content-about span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+section.Experience {
+    background-color: #f8fbfe;
+    padding: 8px 0;
+}
+
+.projects{
+    display: flex;
+    padding: 3% 14%;
+}
+
+.projects-content {
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.projects-content h2 {
+    color:#124265;
+    padding: 8px 0;
+}
+
+section.contact {
+    background-color: white;
+    padding: 8px 0;   
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+    padding: 3% 14%;       
+}    
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-content h2 {
+    color:#124265;
+}
+
+
+footer {
+    background-color: #031624;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .diferenciais-single {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .content-about p {
+        width: 100%;
+        margin: 20px 20px;
+    }
+}
